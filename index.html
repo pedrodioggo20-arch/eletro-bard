@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Eletro Bard - Serviços elétricos em Carangola e região. Entre em contato e solicite seu orçamento."
+    >
+
+    <meta name="theme-color" content="#0b0f14">
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Eletro Bard | Serviços Elétricos em Carangola - MG">
+    <meta property="og:description" content="Serviços elétricos residenciais e comerciais em Carangola e região. Orçamento pelo WhatsApp.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='5' fill='%23ffc400'/%3E%3Cpath d='M13 3 6 13.5h5L10 21l8-11h-5z'/%3E%3C/svg%3E">
+    <script>document.documentElement.classList.add("js")</script>
+    <script type="application/ld+json">{"@context":"https://schema.org","@type":"Electrician","name":"Eletro Bard","telephone":"+5532999926389","areaServed":"Carangola, MG",
+    "address":{"@type":"PostalAddress","streetAddress":"Rua Espera Feliz, 92","addressLocality":"Carangola","addressRegion":"MG","addressCountry":"BR"},
+    "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"opens":"07:00","closes":"18:00"}}</script>
+
+    <title>Eletro Bard | Serviços Elétricos</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Barlow+Condensed:wght@700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false"><symbol id="i-bolt" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M13 2 4 14h6l-1 8 9-12h-6z"/></symbol><symbol id="i-wrench" viewBox="0 0 24 24"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol><symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11 12 3l9 8M5 10v10h14V10M10 20v-6h4v6"/></symbol><symbol id="i-building" viewBox="0 0 24 24"><path d="M4 21V4h11v17M15 9h5v12M8 8h3M8 12h3M8 16h3M4 21h16"/></symbol><symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11a7 7 0 0 0-14 0c0 4.8 7 11 7 11zM12 12.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></symbol><symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></symbol><symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol><symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2"/></symbol></svg>
+
+    <!-- =========================================
+         HEADER
+    ========================================== -->
+    <header class="header" id="header">
+
+        <div class="container header-container">
+
+            <a href="#inicio" class="logo" aria-label="Eletro Bard - Início">
+                <span class="logo-icon"><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg></span>
+
+                <span>
+                    <strong>ELETRO</strong>
+                    <small>BARD</small>
+                </span>
+            </a>
+
+            <button
+                class="menu-button"
+                id="menuButton"
+                aria-label="Abrir menu"
+                aria-expanded="false"
+                aria-controls="nav"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="nav">
+
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#trabalhos">Trabalhos</a>
+                <a href="#contato">Contato</a>
+
+                <a
+                    href="https://wa.me/5532999926389?text=Ol%C3%A1%20Eletro%20Bard%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." data-wa="Olá Eletro Bard! Gostaria de solicitar um orçamento."
+                    class="nav-button"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Solicitar orçamento
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main id="conteudo">
+
+        <!-- =========================================
+             HERO
+        ========================================== -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-background"><svg class="arc" viewBox="0 0 300 900" aria-hidden="true"><path d="M180 0 L120 190 L200 250 L90 470 L170 520 L60 900"/></svg></div>
+
+            <div class="container hero-content">
+
+                <div class="hero-text reveal">
+
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        Atendimento em Carangola e região
+                    </div>
+
+                    <h1>
+                        Soluções elétricas
+                        <span>para sua casa e empresa.</span>
+                    </h1>
+
+                    <p>
+                        Serviços elétricos com atendimento direto e
+                        orçamento pelo WhatsApp.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="https://wa.me/5532999926389?text=Ol%C3%A1%20Eletro%20Bard%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." data-wa="Olá Eletro Bard! Gostaria de solicitar um orçamento."
+                            class="button button-primary"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>Solicitar orçamento</span>
+                            <span class="arrow">→</span>
+                        </a>
+
+                        <a href="#servicos" class="button button-secondary">
+                            Conhecer serviços
+                        </a>
+
+                    </div>
+
+                    <div class="hero-info">
+
+                        <div>
+                            <strong>Carangola - MG</strong>
+                            <span>Atendimento local</span>
+                        </div>
+
+                        <div>
+                            <strong>07h às 18h</strong>
+                            <span>Segunda a sábado</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-visual reveal">
+        <div class="panel" role="group" aria-label="Escolha o serviço">
+          <div class="panel-head"><span>Quadro de serviços</span><i class="lamp" aria-hidden="true"></i></div>
+          <p class="panel-hint">Ligue o disjuntor do serviço que você precisa.</p>
+          <div class="breakers">
+            <button type="button" class="breaker" aria-pressed="false" data-label="Instalações" data-msg="Olá! Gostaria de um orçamento de instalação elétrica."><span class="switch"></span>Instalações</button>
+            <button type="button" class="breaker" aria-pressed="false" data-label="Manutenção" data-msg="Olá! Gostaria de um orçamento de manutenção elétrica."><span class="switch"></span>Manutenção</button>
+            <button type="button" class="breaker" aria-pressed="false" data-label="Residencial" data-msg="Olá! Gostaria de um orçamento de serviço elétrico residencial."><span class="switch"></span>Residencial</button>
+            <button type="button" class="breaker" aria-pressed="false" data-label="Comercial" data-msg="Olá! Gostaria de um orçamento de serviço elétrico comercial."><span class="switch"></span>Comercial</button>
+          </div>
+          <a id="panelCta" class="button button-primary panel-cta" href="https://wa.me/5532999926389" target="_blank" rel="noopener noreferrer">Pedir orçamento</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+        <!-- =========================================
+             FAIXA DE CONFIANÇA
+        ========================================== -->
+        <section class="trust-bar">
+
+            <div class="container trust-container">
+
+                <div class="trust-item">
+                    <span class="trust-icon"><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg></span>
+                    <div>
+                        <strong>Serviço elétrico</strong>
+                        <span>Atendimento profissional</span>
+                    </div>
+                </div>
+
+                <div class="trust-item">
+                    <span class="trust-icon"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+                    <div>
+                        <strong>Carangola e região</strong>
+                        <span>Atendimento local</span>
+                    </div>
+                </div>
+
+                <div class="trust-item">
+                    <span class="trust-icon"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span>
+                    <div>
+                        <strong>Contato direto</strong>
+                        <span>Fale pelo WhatsApp</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             SERVIÇOS
+        ========================================== -->
+        <div class="tape" aria-hidden="true"><div class="tape-track"><span>Instalações elétricas</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Manutenção</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Serviço residencial</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Serviço comercial</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Orçamento pelo WhatsApp</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Carangola e região</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Instalações elétricas</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Manutenção</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Serviço residencial</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Serviço comercial</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Orçamento pelo WhatsApp</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg><span>Carangola e região</span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg></div></div>
+
+        <section class="section services-section" id="servicos">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">O que fazemos</span>
+
+                    <h2>
+                        Serviços para manter
+                        <span>sua instalação funcionando.</span>
+                    </h2>
+
+                    <p>
+                        Entre em contato para explicar o que você precisa
+                        e solicite um orçamento.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <article class="service-card reveal">
+
+                        <div class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg></div>
+
+                        <h3>Instalações elétricas</h3>
+
+                        <p>
+                            Serviços relacionados a instalações elétricas
+                            residenciais e comerciais, conforme a necessidade.
+                        </p>
+
+                        <a
+                            href="https://wa.me/5532999926389?text=Ol%C3%A1%21%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20instala%C3%A7%C3%B5es%20el%C3%A9tricas." data-wa="Olá! Gostaria de informações sobre instalações elétricas."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Solicitar informações →
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card reveal">
+
+                        <div class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-wrench"/></svg></div>
+
+                        <h3>Manutenção elétrica</h3>
+
+                        <p>
+                            Atendimento para identificar necessidades de
+                            manutenção e realizar os serviços necessários.
+                        </p>
+
+                        <a
+                            href="https://wa.me/5532999926389?text=Ol%C3%A1%21%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20manuten%C3%A7%C3%A3o%20el%C3%A9trica." data-wa="Olá! Gostaria de informações sobre manutenção elétrica."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Solicitar informações →
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card reveal">
+
+                        <div class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg></div>
+
+                        <h3>Serviços residenciais</h3>
+
+                        <p>
+                            Soluções elétricas para necessidades de casas
+                            e outros ambientes residenciais.
+                        </p>
+
+                        <a
+                            href="https://wa.me/5532999926389?text=Ol%C3%A1%21%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20residenciais." data-wa="Olá! Gostaria de informações sobre serviços residenciais."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Solicitar informações →
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card reveal">
+
+                        <div class="service-icon"><svg class="icon" aria-hidden="true"><use href="#i-building"/></svg></div>
+
+                        <h3>Serviços comerciais</h3>
+
+                        <p>
+                            Atendimento para necessidades elétricas em
+                            estabelecimentos comerciais.
+                        </p>
+
+                        <a
+                            href="https://wa.me/5532999926389?text=Ol%C3%A1%21%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20servi%C3%A7os%20comerciais." data-wa="Olá! Gostaria de informações sobre serviços comerciais."
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Solicitar informações →
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             SOBRE
+        ========================================== -->
+        <section class="section about-section" id="sobre">
+
+            <div class="container about-grid">
+
+                <div class="about-visual reveal">
+
+                    <div class="about-image">
+
+                        <div class="about-pattern"></div>
+
+                        <div class="about-center">
+                            <span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg></span>
+                            <strong>ELETRO<br>BARD</strong>
+                        </div>
+
+                    </div>
+
+                    <div class="experience-card">
+
+                        <span>ATENDIMENTO</span>
+                        <strong>CARANGOLA</strong>
+                        <small>E REGIÃO</small>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-content reveal">
+
+                    <span class="section-label">Sobre o atendimento</span>
+
+                    <h2>
+                        Precisa de um serviço elétrico?
+                        <span>Fale diretamente com a Eletro Bard.</span>
+                    </h2>
+
+                    <p>
+                        A Eletro Bard atua em Carangola e região,
+                        oferecendo atendimento para necessidades
+                        relacionadas a serviços elétricos.
+                    </p>
+
+                    <p>
+                        Para saber se o serviço que você precisa está
+                        disponível, entre em contato pelo WhatsApp e
+                        explique sua necessidade.
+                    </p>
+
+
+                    <div class="about-list">
+
+                        <div class="about-list-item">
+                            <span>✓</span>
+                            <div>
+                                <strong>Atendimento direto</strong>
+                                <p>Converse diretamente pelo WhatsApp.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-list-item">
+                            <span>✓</span>
+                            <div>
+                                <strong>Orçamento</strong>
+                                <p>Explique o serviço que você precisa.</p>
+                            </div>
+                        </div>
+
+                        <div class="about-list-item">
+                            <span>✓</span>
+                            <div>
+                                <strong>Atendimento local</strong>
+                                <p>Carangola e região.</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <a
+                        href="https://wa.me/5532999926389?text=Ol%C3%A1%20Eletro%20Bard%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." data-wa="Olá Eletro Bard! Gostaria de solicitar um orçamento."
+                        class="button button-primary"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Falar pelo WhatsApp →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             TRABALHOS
+        ========================================== -->
+        <section class="section works-section" id="trabalhos">
+
+            <div class="container">
+
+                <div class="section-heading section-heading-light reveal">
+
+                    <span class="section-label">Portfólio</span>
+
+                    <h2>
+                        Alguns dos nossos
+                        <span>trabalhos.</span>
+                    </h2>
+
+                    <p>
+                        Esta área poderá receber fotos reais dos serviços
+                        realizados pela Eletro Bard.
+                    </p>
+
+                </div>
+
+
+                <div class="works-grid">
+
+                    <div class="work-card reveal">
+
+                        <img src="img/trabalho-1.jpg" alt="Instalação elétrica realizada pela Eletro Bard" loading="lazy" onerror="this.remove()">
+
+                        <div class="work-placeholder">
+                            <span><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg></span>
+                            <small>FOTO DO SERVIÇO</small>
+                        </div>
+
+                        <div class="work-overlay">
+                            <strong>Instalação elétrica</strong>
+                            <span>Carangola - MG</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="work-card reveal">
+
+                        <img src="img/trabalho-2.jpg" alt="Manutenção elétrica realizada pela Eletro Bard" loading="lazy" onerror="this.remove()">
+
+                        <div class="work-placeholder">
+                            <span><svg class="icon" aria-hidden="true"><use href="#i-wrench"/></svg></span>
+                            <small>FOTO DO SERVIÇO</small>
+                        </div>
+
+                        <div class="work-overlay">
+                            <strong>Manutenção</strong>
+                            <span>Carangola - MG</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="work-card reveal">
+
+                        <img src="img/trabalho-3.jpg" alt="Serviço elétrico residencial realizado pela Eletro Bard" loading="lazy" onerror="this.remove()">
+
+                        <div class="work-placeholder">
+                            <span><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg></span>
+                            <small>FOTO DO SERVIÇO</small>
+                        </div>
+
+                        <div class="work-overlay">
+                            <strong>Serviço residencial</strong>
+                            <span>Carangola - MG</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             COMO FUNCIONA
+        ========================================== -->
+        <section class="section process-section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">Como funciona</span>
+
+                    <h2>
+                        É simples pedir
+                        <span>seu orçamento.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="process-grid">
+
+                    <div class="process-item reveal">
+
+                        <span class="process-number">01</span>
+
+                        <div>
+                            <h3>Entre em contato</h3>
+                            <p>
+                                Clique no WhatsApp e fale diretamente
+                                com a Eletro Bard.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process-item reveal">
+
+                        <span class="process-number">02</span>
+
+                        <div>
+                            <h3>Explique o serviço</h3>
+                            <p>
+                                Informe o que precisa ser feito e,
+                                se possível, envie fotos ou detalhes.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="process-item reveal">
+
+                        <span class="process-number">03</span>
+
+                        <div>
+                            <h3>Receba orientação</h3>
+                            <p>
+                                A empresa poderá avaliar sua necessidade
+                                e informar as condições do serviço.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             AVALIAÇÃO
+        ========================================== -->
+        <section class="section review-section">
+
+            <div class="container">
+
+                <div class="review-box reveal">
+
+                    <div class="review-stars" role="img" aria-label="5 de 5 estrelas">
+                        ★ ★ ★ ★ ★
+                    </div>
+
+                    <div class="review-score">
+                        <strong>5,0</strong>
+                        <span>avaliação pública</span>
+                    </div>
+
+                    <p>
+                        A empresa aparece com avaliação pública de
+                        5,0 estrelas em uma plataforma de mapas,
+                        com avaliações disponíveis.
+                    </p>
+
+                    <small>
+                        Consulte as avaliações diretamente na plataforma
+                        para conhecer os comentários dos clientes.
+                    </small>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CTA
+        ========================================== -->
+        <section class="cta-section">
+
+            <div class="container">
+
+                <div class="cta-content reveal">
+
+                    <div>
+
+                        <span class="section-label">Precisa de ajuda?</span>
+
+                        <h2>
+                            Solicite seu orçamento
+                            <span>pelo WhatsApp.</span>
+                        </h2>
+
+                        <p>
+                            Entre em contato e explique o serviço que você precisa.
+                        </p>
+
+                    </div>
+
+                    <a
+                        href="https://wa.me/5532999926389?text=Ol%C3%A1%20Eletro%20Bard%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." data-wa="Olá Eletro Bard! Gostaria de solicitar um orçamento."
+                        class="button button-light"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Falar no WhatsApp →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================================
+             CONTATO
+        ========================================== -->
+        <section class="section contact-section" id="contato">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <span class="section-label">Contato</span>
+
+                    <h2>
+                        Fale com a
+                        <span>Eletro Bard.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="contact-grid">
+
+                    <a
+                        href="https://wa.me/5532999926389" data-wa=""
+                        class="contact-card reveal"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <div class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></div>
+
+                        <span>WhatsApp</span>
+
+                        <strong>(32) 99992-6389</strong>
+
+                        <small>Enviar mensagem →</small>
+                    </a>
+
+
+                    <a
+                        href="tel:+5532999926389"
+                        class="contact-card reveal"
+                    >
+                        <div class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-phone"/></svg></div>
+
+                        <span>Telefone</span>
+
+                        <strong>(32) 99992-6389</strong>
+
+                        <small>Ligar agora →</small>
+                    </a>
+
+
+                    <div class="contact-card reveal">
+
+                        <div class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></div>
+
+                        <span>Endereço</span>
+
+                        <strong>Rua Espera Feliz, 92</strong>
+
+                        <small>Santo Onofre - Carangola/MG</small>
+                    </div>
+
+
+                    <div class="contact-card reveal">
+
+                        <div class="contact-icon"><svg class="icon" aria-hidden="true"><use href="#i-clock"/></svg></div>
+
+                        <span>Horário</span>
+
+                        <strong>07h às 18h</strong>
+
+                        <small>Segunda a sábado</small>
+                    </div>
+
+                </div>
+
+
+                <div class="map-wrapper reveal">
+
+                    <div class="map-content">
+
+                        <span class="map-icon"><svg class="icon" aria-hidden="true"><use href="#i-pin"/></svg></span>
+
+                        <h3>Estamos em Carangola - MG</h3>
+
+                        <p>
+                            Rua Espera Feliz, 92 - Santo Onofre
+                        </p>
+
+                        <a
+                            href="https://www.google.com/maps/search/?api=1&query=Rua+Espera+Feliz+92+Santo+Onofre+Carangola+MG"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="map-button"
+                        >
+                            Abrir localização no mapa →
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================================
+         FOOTER
+    ========================================== -->
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="#inicio" class="logo">
+
+                    <span class="logo-icon"><svg class="icon" aria-hidden="true"><use href="#i-bolt"/></svg></span>
+
+                    <span>
+                        <strong>ELETRO</strong>
+                        <small>BARD</small>
+                    </span>
+
+                </a>
+
+                <p>
+                    Serviços elétricos em Carangola e região.
+                </p>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Navegação</h4>
+
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#trabalhos">Trabalhos</a>
+                <a href="#contato">Contato</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Contato</h4>
+
+                <a href="tel:+5532999926389">
+                    (32) 99992-6389
+                </a>
+
+                <a
+                    href="https://wa.me/5532999926389" data-wa=""
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    WhatsApp
+                </a>
+
+                <span>
+                    Carangola - MG
+                </span>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Horário</h4>
+
+                <span>Segunda a sábado</span>
+                <strong>07h às 18h</strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <span>
+                    © <span id="currentYear"></span> Eletro Bard. Todos os direitos reservados.
+                </span>
+
+                <span>
+                    Carangola - MG
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =========================================
+         WHATSAPP FLUTUANTE
+    ========================================== -->
+
+    <a
+        href="https://wa.me/5532999926389?text=Ol%C3%A1%20Eletro%20Bard%21%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." data-wa="Olá Eletro Bard! Gostaria de solicitar um orçamento."
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Falar com Eletro Bard pelo WhatsApp"
+    >
+        <span><svg class="icon" aria-hidden="true"><use href="#i-chat"/></svg></span>
+
+        <div class="whatsapp-tooltip">
+            Solicitar orçamento
+        </div>
+    </a>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
